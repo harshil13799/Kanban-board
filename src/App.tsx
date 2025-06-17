@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer, useState } from 'react';
 import { Container, CircularProgress, Typography } from '@mui/material';
 import type { KanbanData } from './Data/type';
-import { mockData } from './Data/Data';
+import { mockData } from './Data/data';
 import KanbanBoard from './MainBaord/KanbanBoard';
 
 const reducer = (state: KanbanData, action: any): KanbanData => {
