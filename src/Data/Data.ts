@@ -1,4 +1,4 @@
-import type { KanbanData } from './Data/type';
+import type { KanbanData } from './type';
 
 export const mockData: KanbanData = {
   tasks: {
